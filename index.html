@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <title>PizzaHut</title>
+  </head>
+  <body>
+    <!--logo-->
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-white bg-white">
+        <img
+          src="https://website-images-fiala.s3.amazonaws.com/images/pizzahut_logo.png"
+          width="50"
+          height="50"
+          alt=""
+        />
+
+        <!--logo navbar-->
+        <nav
+          class="navbar navbar-expand navbar-white bg-white navbar-right-top"
+        >
+          <ul class="navbar-nav">
+            <li>
+              <a
+                class="nav-link xsmall-font text-dark font-weight-bold"
+                href="#"
+                >SIGN IN <span class="sr-only"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                class="nav-link xsmall-font text-dark font-weight-bold"
+                href="#"
+                >CREATE AN ACCOUNT</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link xsmall-font text-dark font-weight-bold"
+                href="#"
+                >FIND A PIZZA HUT</a
+              >
+            </li>
+            <li>
+              <a class="nav-link xsmall-font text-danger" href="#">عربي</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--call us section-->
+        <div class="row call-right-top">
+          <h5 class="m-2"><i class="fas fa-phone"></i> Call US-1900</h5>
+          <img
+            class="m-2"
+            src="https://website-images-fiala.s3.amazonaws.com/images/halal.png"
+            width="30"
+            height="30"
+            alt=""
+          />
+        </div>
+      </nav>
+
+      <!--order navbar-->
+      <nav class="navbar navbar-expand-md bg-white p-0 w-100" id="order-nav">
+        <ul class="navbar-nav w-100">
+          <div class="row w-100 m-0">
+            <li class="nav-item col">
+              <a
+                class="nav-link text-dark font-weight-bold text-center"
+                href="#"
+                >PIZZA</a
+              >
+            </li>
+            <li class="nav-item col">
+              <a
+                class="nav-link text-dark font-weight-bold text-center"
+                href="#"
+                >STARTERS</a
+              >
+            </li>
+            <li class="nav-item col">
+              <a
+                class="nav-link text-dark font-weight-bold text-center"
+                href="#"
+                >SALADS</a
+              >
+            </li>
+            <li class="nav-item col">
+              <a
+                class="nav-link dropdown-toggle text-dark font-weight-bold text-center"
+                href="#"
+                >MORE</a
+              >
+            </li>
+            <li class="nav-item col" style="background-color: #ffa500">
+              <a
+                class="nav-link text-center font-weight-bold text-dark"
+                href="#"
+                >DEALS</a
+              >
+            </li>
+          </div>
+        </ul>
+        <ul class="navbar-nav w-100 row g-0 m-0" id="start-order-nav">
+          <li class="nav-item col" id="start-order">
+            <a class="nav-link text-center text-white h5" href="#"
+              >START YOUR ORDER</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!--pizza flavours navnar-->
+
+      <div class="w-100 position-relative">
+        <img
+          src="https://website-images-fiala.s3.amazonaws.com/images/nav_image.png"
+          class="w-100"
+          id="img-nav"
+        />
+        <nav
+          class="navbar navbar-expand-md navbar-light bg-dark w-100"
+          id="img-navbar"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="row">
+                <a
+                  class="nav-item nav-link"
+                  style="border-bottom: 2px solid red"
+                  href="#"
+                  >ALL</a
+                >
+                <a class="nav-item nav-link" href="#">BEEF</a>
+                <a class="nav-item nav-link" href="#">CHICKEN</a>
+                <a class="nav-item nav-link" href="#">VEGTARIAN</a>
+                <a class="nav-item nav-link" href="#">SPECIALITY</a>
+                <a class="nav-item nav-link" href="#">EXTREME PIZZA</a>
+                <a class="nav-item nav-link" href="#">SEA FOOD</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--cards-section-start-->
+      <div class="container-fluid gray-color">
+        <!--first-group-cards-start-->
+        <div class="card-group row">
+          <!--first-card-start-->
+          <div class="col-6 p-0">
+            <div class="card mr-4 ml-0 mb-4 mt-4">
+              <div class="row m-0">
+                <!--image and price section-->
+                <div class="col-md-4 p-0">
+                  <!--image section-->
+                  <div class="container h-100 p-0">
+                    <div class="row m-0">
+                      <img
+                        src="images/super_supreme.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                        style="height: 12em; width: 12em"
+                      />
+                    </div>
+                    <!--price section-->
+                    <div
+                      class="row m-0 d-flex justify-content-center pb-5"
+                      style="height: 1em"
+                    >
+                      <h3 class="font-weight-bold">EGP 75.88</h3>
+                    </div>
+                  </div>
+                </div>
+                <!--card-body-start-->
+
+                <div class="col-md-8">
+                  <div class="card-body p-2">
+                    <h5 class="card-title mb-1">SUPER SUPREME</h5>
+                    <p class="card-text mb-5">
+                      Our famous combination of Beef Pepperoni, juicy Beef,
+                      Mushrooms Green Peppers, Onions, Black Olives and melting
+                      mozzarela cheese.
+                    </p>
+                    <!--select options-->
+                    <div class="row m-0">
+                      <!--Pan-->
+                      <div class="col-7 pl-0 pr-1 pt-0 pb-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Pan
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--medium-->
+                      <div class="col-5 p-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Medium
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2 p-0 my-auto"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--select options-end-->
+                    <!--order-buttons-->
+                    <div class="row pt-2 m-0">
+                      <div class="col-5 my-auto w-100 p-0">
+                        <button type="button" class="btn btn-secondary w-100">
+                          CUSTOMIZE
+                        </button>
+                      </div>
+                      <div class="col-7 p-0 pl-2">
+                        <button
+                          type="button"
+                          class="btn btn-danger btn-lg w-100"
+                        >
+                          ADD TO CART
+                        </button>
+                      </div>
+                    </div>
+                    <!--order-buttons-end-->
+                  </div>
+                </div>
+                <!--card-body-end-->
+              </div>
+            </div>
+          </div>
+          <!--first-card-end-->
+          <!--second-card-start-->
+          <div class="col-6 p-0">
+            <div class="card mr-0 ml-4 mb-4 mt-4">
+              <div class="row m-0">
+                <!--image and price section-->
+                <div class="col-md-4 p-0">
+                  <!--image section-->
+                  <div class="container h-100 p-0">
+                    <div class="row m-0">
+                      <img
+                        src="https://website-images-fiala.s3.amazonaws.com/images/classic-pepperoni.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                        style="height: 12em; width: 12em"
+                      />
+                    </div>
+                    <!--price section-->
+                    <div
+                      class="row m-0 d-flex justify-content-center pb-5"
+                      style="height: 1em"
+                    >
+                      <h3 class="font-weight-bold">EGP 64.47</h3>
+                    </div>
+                  </div>
+                </div>
+                <!--card-body-start-->
+
+                <div class="col-md-8">
+                  <div class="card-body p-2">
+                    <h5 class="card-title mb-1">CLASSIC PEPPERONI</h5>
+                    <p class="card-text mb-5">
+                      One of our all time specialties. Ameaty feast of Pepperoni
+                      Mushroom, Black Olives mozzarella cheese and tomato sauce.
+                    </p>
+                    <!--select options-->
+                    <div class="row m-0">
+                      <!--Pan-->
+                      <div class="col-7 pl-0 pr-1 pt-0 pb-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Pan
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--medium-->
+                      <div class="col-5 p-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Medium
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2 p-0 my-auto"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--select options-end-->
+                    <!--order-buttons-->
+                    <div class="row pt-2 m-0">
+                      <div class="col-5 my-auto w-100 p-0">
+                        <button type="button" class="btn btn-secondary w-100">
+                          CUSTOMIZE
+                        </button>
+                      </div>
+                      <div class="col-7 p-0 pl-2">
+                        <button
+                          type="button"
+                          class="btn btn-danger btn-lg w-100"
+                        >
+                          ADD TO CART
+                        </button>
+                      </div>
+                    </div>
+                    <!--order-buttons-end-->
+                  </div>
+                </div>
+                <!--card-body-end-->
+              </div>
+            </div>
+          </div>
+          <!--second-card-end-->
+        </div>
+        <!--first-group--cards-end-->
+
+        <!--second-group-cards-start-->
+        <div class="card-group row">
+          <!--first-card-start-->
+          <div class="col-6 p-0">
+            <div class="card mr-4 ml-0 mb-4 mt-4">
+              <div class="row m-0">
+                <!--image and price section-->
+                <div class="col-md-4 p-0">
+                  <!--image section-->
+                  <div class="container h-100 p-0">
+                    <div class="row m-0">
+                      <img
+                        src="https://website-images-fiala.s3.amazonaws.com/images/chicken_supreme.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                        style="height: 12em; width: 12em"
+                      />
+                    </div>
+                    <!--price section-->
+                    <div
+                      class="row m-0 d-flex justify-content-center pb-5"
+                      style="height: 1em"
+                    >
+                      <h3 class="font-weight-bold">EGP 75.88</h3>
+                    </div>
+                  </div>
+                </div>
+                <!--card-body-start-->
+
+                <div class="col-md-8">
+                  <div class="card-body p-2">
+                    <h5 class="card-title mb-1">CHICKEN SUPREME</h5>
+                    <p class="card-text mb-5">
+                      The utimate mix of Chicken together with Mushrooms, Red
+                      Onions, Green Peppers, fresh Tomatoes, Olives and meting
+                      mozzarela cheese.
+                    </p>
+                    <!--select options-->
+                    <div class="row m-0">
+                      <!--Pan-->
+                      <div class="col-7 pl-0 pr-1 pt-0 pb-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Pan
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--medium-->
+                      <div class="col-5 p-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Medium
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2 p-0 my-auto"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--select options-end-->
+                    <!--order-buttons-->
+                    <div class="row pt-2 m-0">
+                      <div class="col-5 my-auto w-100 p-0">
+                        <button type="button" class="btn btn-secondary w-100">
+                          CUSTOMIZE
+                        </button>
+                      </div>
+                      <div class="col-7 p-0 pl-2">
+                        <button
+                          type="button"
+                          class="btn btn-danger btn-lg w-100"
+                        >
+                          ADD TO CART
+                        </button>
+                      </div>
+                    </div>
+                    <!--order-buttons-end-->
+                  </div>
+                </div>
+                <!--card-body-end-->
+              </div>
+            </div>
+          </div>
+          <!--first-card-end-->
+          <!--second-card-start-->
+          <div class="col-6 p-0">
+            <div class="card mr-0 ml-4 mb-4 mt-4">
+              <div class="row m-0">
+                <!--image and price section-->
+                <div class="col-md-4 p-0">
+                  <!--image section-->
+                  <div class="container h-100 p-0">
+                    <div class="row m-0">
+                      <img
+                        src="https://website-images-fiala.s3.amazonaws.com/images/spicy-chicken-ranch.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                        style="height: 12em; width: 12em"
+                      />
+                    </div>
+                    <!--price section-->
+                    <div
+                      class="row m-0 d-flex justify-content-center pb-5"
+                      style="height: 1em"
+                    >
+                      <h3 class="font-weight-bold">EGP 64.47</h3>
+                    </div>
+                  </div>
+                </div>
+                <!--card-body-start-->
+
+                <div class="col-md-8">
+                  <div class="card-body p-2">
+                    <h5 class="card-title mb-1">SPICY CHICKEN RANCH</h5>
+                    <p class="card-text mb-5">
+                      Grilled chicken, fresh tomatoes, mushrooms and green
+                      Jalapeno peppers with a dizzle of thick Peri Peri sauce.
+                    </p>
+                    <!--select options-->
+                    <div class="row m-0">
+                      <!--Pan-->
+                      <div class="col-7 pl-0 pr-1 pt-0 pb-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Pan
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--medium-->
+                      <div class="col-5 p-0">
+                        <div class="btn-group border border-dark rounded w-100">
+                          <div class="row m-0 w-100">
+                            <button
+                              class="btn pl-1 bg-white shadow col-10"
+                              type="button"
+                              style="width: 7em; text-align: left"
+                            >
+                              Large
+                            </button>
+                            <button
+                              type="button"
+                              class="btn dropdown-toggle dropdown-toggle-split bg-white w-100 col-2 p-0 my-auto"
+                            >
+                              <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--select options-end-->
+                    <!--order-buttons-->
+                    <div class="row pt-2 m-0">
+                      <div class="col-5 my-auto w-100 p-0">
+                        <button type="button" class="btn btn-secondary w-100">
+                          CUSTOMIZE
+                        </button>
+                      </div>
+                      <div class="col-7 p-0 pl-2">
+                        <button
+                          type="button"
+                          class="btn btn-danger btn-lg w-100"
+                        >
+                          ADD TO CART
+                        </button>
+                      </div>
+                    </div>
+                    <!--order-buttons-end-->
+                  </div>
+                </div>
+                <!--card-body-end-->
+              </div>
+            </div>
+          </div>
+          <!--second-card-end-->
+        </div>
+        <!--first-group--cards-end-->
+      </div>
+
+      <!--cards-section-end-->
+    </div>
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>
